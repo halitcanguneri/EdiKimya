@@ -14,9 +14,9 @@ public class ADmobReklam : MonoBehaviour
     {
         string adUnitId;
 #if UNITY_ANDROID
-        adUnitId = "ca-app-pub-2471105127721777/4098671967"; // EdiKimya Ödüllü reklam orjinal kendi reklam kodum.
+        adUnitId = "********************************************"; // EdiKimya Ã–dÃ¼llÃ¼ reklam orjinal kendi reklam kodum.
 #elif UNITY_IPHONE  
-adUnitId = "ca-app-pub-3940256099942544/1712485313";
+adUnitId = "********************************************";
 #else
 adUnitId = "unexpected_platform";
 #endif
@@ -39,7 +39,7 @@ adUnitId = "unexpected_platform";
             this.odulluReklam.Show();
         }
     }
-    public void Resume()                                  //reklam gelecek ondan sonra basýlabilecek.
+    public void Resume()                                  //reklam gelecek ondan sonra basÃ½labilecek.
     {
         Time.timeScale = 1;
         DeathScreen.SetActive(false);
